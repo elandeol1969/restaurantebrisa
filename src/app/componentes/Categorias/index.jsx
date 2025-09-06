@@ -29,21 +29,25 @@ export default function Categorias({ handleFiltro, botaoClicado }) {
           <Image className={estilos.icone} src={icone3} alt="ícone" />
           <span>Carnes</span>
         </button>
+
         <button className={botaoClicado === "Bebidas" ? estilos.acenderBtn : estilos.apagarBtn}
           onClick={() => handleFiltro("Bebidas")}>
           <Image className={estilos.icone} src={icone4} alt="ícone" />
           <span>Bebidas</span>
         </button>
+
         <button className={botaoClicado === "Saladas" ? estilos.acenderBtn : estilos.apagarBtn}
           onClick={() => handleFiltro("Saladas")}>
           <Image className={estilos.icone} src={icone5} alt="ícone" />
           <span>Saladas</span>
         </button>
+
         <button className={botaoClicado === "Sobremesas" ? estilos.acenderBtn : estilos.apagarBtn}
           onClick={() => handleFiltro("Sobremesas")}>
           <Image className={estilos.icone} src={icone6} alt="ícone" />
           <span>Sobremesas</span>
         </button>
+
       </div>
     </section>
   );

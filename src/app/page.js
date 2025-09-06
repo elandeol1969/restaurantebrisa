@@ -35,9 +35,9 @@ export default function Home() {
       <header className={estilos.topo}>
         <Image src={Banner} alt="banner" />
         <div>
-          <h1>Fábio Beach</h1>
+          <h1>Restaurante Brisa</h1>
           <p>
-            A melhor experiência gastronômica à sua disposição em João Pessoa.
+            A melhor experiência gastronômica à sua disposição.
           </p>
         </div>
       </header>
